@@ -2,10 +2,10 @@
 
 #### 𝗗𝗘𝗣𝗟𝗢𝗬 𝗨𝗣𝗧𝗢 30 𝗕𝗢𝗧𝗦 𝗜𝗡 𝗔 𝗦𝗜𝗡𝗚𝗟𝗘 𝗔𝗣𝗣 
 ### SUDO HANDLER * plugins like (*ping), (*bigspam) , (*raid) ,(*replyraid) and more
-##   - 「[𝗢𝘄𝗻𝗲𝗿](https://t.me/YashOP_XD) ✗ [𝗢𝘄𝗻𝗲𝗿2](https://t.me/xGODWOLF)」
+##   - 「[𝗢𝘄𝗻𝗲𝗿](https://t.me/THE_URANIUM) ✗ [𝗢𝘄𝗻𝗲𝗿2](https://t.me/the_silentsmile)」
 
 <p align="center">
-  <img src="https://te.legra.ph/file/1a85cf01985834708c748.jpg">
+  <img src="https://telegra.ph/file/29eafc95698d0c36784b6.jpg">
 </p>
 
 
