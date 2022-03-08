@@ -1032,7 +1032,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("sᴜᴄᴄᴇssғᴜʟʟʏ ᴊᴏɪɴᴇᴅ ✅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1081,7 +1081,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("sᴜᴄᴄᴇssғᴜʟʟʏ ᴊᴏɪɴᴇᴅ ᴘʀɪᴠᴀᴛᴇ ✅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1127,11 +1127,11 @@ async def _(e):
         if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "𝐎𝐊 𝐅𝐈𝐍𝐄 𝐌𝐀𝐍 𝐀𝐑𝐊𝐇𝐀𝐌𝐱𝐆𝐎𝐃 𝐁𝐎𝐓 𝐋𝐄𝐀𝐕𝐈𝐍𝐆....."
+            text = "ᴜʀᴀɴɪᴜᴍ ᴀʀᴍʏ ʟᴇᴀᴠɪɴɢ ɢʀᴏᴜᴘ....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴇғᴛ ✅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1512,7 +1512,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "OK SIR WE WILL FUCK THIS BITCH YOU ENJOY THE SHOW..."
+            text = "𝚁𝙴𝙿𝙻𝚈𝚁𝙰𝙸𝙳 𝙰𝙲𝚃𝙸𝚅𝙰𝚃𝙴𝙳 𝙾𝙽 𝙼𝚈 𝚂𝙾𝙽 ✅..."
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1522,7 +1522,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "OK SIR WE WILL FUCK THIS BITCH YOU ENJOY THE SHOW..."
+            text = "𝚁𝙴𝙿𝙻𝚈𝚁𝙰𝙸𝙳 𝙰𝙲𝚃𝙸𝚅𝙰𝚃𝙴𝙳 𝙾𝙽 𝙼𝚈 𝚂𝙾𝙽 ✅..."
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1577,7 +1577,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "OK MAN WE WILL STOP NOW KALP GAYA HAI BECHARA..."
+            text = "ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇ ʀᴇᴘʟʏʀᴀɪᴅ  sᴜᴄᴄᴇssғᴜʟʟʏ ✅..."
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1588,7 +1588,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "OK MAN WE WILL STOP NOW KALP GAYA HAI BECHARA..."
+            text = "ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇ ʀᴇᴘʟʏʀᴀɪᴅ  sᴜᴄᴄᴇssғᴜʟʟ✅..."
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1754,11 +1754,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝐀𝐑𝐊𝐇𝐀𝐌𝐱𝐆𝐎𝐃 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐎𝐏 🥵🔥!"
+        text = "⚔️ 𝗨𝗥𝗔𝗡𝗜𝗨𝗠 ✘ 𝗦𝗣𝗔𝗠𝗕𝗢𝗧 ⚔️!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝗣𝗢𝗡𝗚!\n`{ms}` ms{ALIVE_NAME} ")
+        await event.edit(f"🗡️𝗣𝗢𝗡𝗚🗡️!\n`{ms}` ms{ALIVE_NAME} ")
 
 
 
@@ -1960,7 +1960,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "⛓𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀⛓\n\n⚜𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙⚜:\n*ping\n*restart\n\n🔰𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙🔰:\n*join\n*pjoin\n*leave\n\n🛡𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙🛡:\n*delayspam\n*bigspam\n*raid\n*replyraid\n*dreplyraid\n\n\nIf You Dont Understand How To Use This Bot Then Dont Use Your Noob Mind Just Contact @YashOP_XD"
+       text = "⛓𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀⛓\n\n⚜𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃⚜:\n*ping\n*restart\n\n🍷𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🍷:\n*join\n*pjoin\n*leave\n\n:\n*delayspam\n*bigspam🚩𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🚩\n*raid\n*replyraid\n*dreplyraid\n\n\nIf You Dont Understand How To Use This Bot Then Dont Use Your Noob Mind Just Contact @THE_URANIUM"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1969,12 +1969,12 @@ async def help(e):
         
 text = """
 
-💥💥 𝘼𝙍𝙆𝙃𝘼𝙈𝙭𝙂𝙊𝘿 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏 💥💥💥
-💥 𝐁𝐎𝐓 𝐁𝐘 𝐘𝐀𝐒𝐇 𝐀𝐍𝐃 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 💥"""
+[🇮🇳]⚔️𝗨𝗥𝗔𝗡𝗜𝗨𝗠  ✘ 𝗦𝗣𝗔𝗠𝗕𝗢𝗧 ⚔️[🇮🇳]
+🥂 𝐁𝐎𝐓 𝐁𝐘 𝐇𝐈𝐓𝐄𝐒𝐇 𝐀𝐍𝐃 𝐇𝐀𝐑𝐈𝐒𝐇 🥂"""
 
 print(text)
 print("")
-print("𝗔𝗥𝗞𝗛𝗔𝗠𝘅𝗚𝗢𝗗 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗨𝗦𝗘 𝗖𝗛𝗘𝗖𝗞 𝗕𝗬 𝗗𝗢𝗜𝗡𝗚 *ping")
+print("𝗨𝗥𝗔𝗡𝗜𝗨𝗠✘𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗨𝗦𝗘 𝗖𝗛𝗘𝗖𝗞 𝗕𝗬 𝗗𝗢𝗜𝗡𝗚 *ping")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
